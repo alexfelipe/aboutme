@@ -1,0 +1,14 @@
+.header {
+    background-color: #ffffff;
+    width: 100%;
+}
+  
+.header .menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .menu li {
+    padding: 2ex;
+    font-size: 2ex;
+}
