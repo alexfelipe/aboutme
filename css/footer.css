@@ -6,8 +6,8 @@
 }
 
 .footer .img-icon {
-    width: 2em;
-    height: 2em;
+    height: 3em;
+    width: 3em;
     margin-bottom: 1em;
 }
 
@@ -28,8 +28,8 @@
     flex-direction: column;
     align-items: center;
     width: 60%;
-    padding: 2ch;
     text-decoration: none;
+    padding-bottom: 2em;
 }
 
 @media (min-width: 600px) {
@@ -48,23 +48,18 @@
         flex-wrap: wrap;
         width: 100%;
     }
-
     .footer ul li {
         margin: 0 5%;
     }
-
     .footer ul li a {
         align-items: center;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        padding: 2ch;
         text-decoration: none;
         width: auto;
     }
     .footer .img-icon {
         margin: 0 20%;
-        height: 3em;
-        width: 3em;
     }
 }
