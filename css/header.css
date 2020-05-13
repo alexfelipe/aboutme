@@ -1,6 +1,13 @@
 .header {
-    background-color: #ffffff;
+    background-color: #000000;
+    color: #ffffff;
     width: 100%;
+    position: fixed;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
 }
   
 .header .menu ul {
@@ -10,5 +17,5 @@
 
 .header .menu li {
     padding: 2ex;
-    font-size: 2ex;
+    font-size: 3ch;
 }
